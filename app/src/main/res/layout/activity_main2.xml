@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.salaz.er.Main2Activity"
+    android:orientation="vertical"
+    android:background="@android:color/?android:attr/textColorSecondaryInverse">
+
+    <TextView
+        android:id="@+id/textFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Revisar datos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+
+    <TextView
+        android:id="@+id/textNombres"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Nombre:"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+    <TextView
+    android:id="@+id/textDirecciones"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:text="Direccion:"
+
+    android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+<TextView
+    android:id="@+id/textTelfonos"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:text="Telefono:"
+
+    android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+<TextView
+    android:id="@+id/textNacimiento"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:text="Fecha Nacimiento:"
+
+    android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="90dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/ButtonEditar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="?android:attr/colorEdgeEffect"
+        android:text="Editar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <Button
+        android:id="@+id/ButtonAceptar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="?android:attr/colorEdgeEffect"
+        android:onClick="Onclick"
+        android:text="Aceptar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+</LinearLayout>
+</LinearLayout>
